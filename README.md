@@ -1,4 +1,5 @@
 https://flokitvbr.itch.io/godothin
+
 1
 
 # Core Functions
@@ -6,16 +7,16 @@ https://flokitvbr.itch.io/godothin
 ```swift
 func getNode(node: String) -> Node
 ```
-bind to `gt.get_node()`
+bind to `this.get_node()`
 Ex: `getNode("Sprite").position = Vector2(200, 200)`
 
-## var gt
+### var this
 Reference for `get_parent()` and root functions
 
 ```swift
 func echo(msg: Any) -> void
 ```
-Ex: `gt.echo(getNode("Sprite"))` `gt.echo(getNode("Sprite").position)`
+Ex: `this.echo(getNode("Sprite"))` `this.echo(getNode("Sprite").position)`
 
 
 # Object Functions

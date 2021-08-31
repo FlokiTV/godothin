@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "gtCore",
+"language": "GDScript",
+"path": "res://godothin/gtCore.gd"
+}, {
+"base": "Node",
+"class": "gtImage",
+"language": "GDScript",
+"path": "res://godothin/gtImage.gd"
+} ]
+_global_script_class_icons={
+"gtCore": "",
+"gtImage": ""
+}
+
 [application]
 
 config/name="Godothin"
