@@ -8,6 +8,7 @@ You can use this functions directly on scope of your script
 func getNode(node: String) -> Node
 ```
 bind to `this.get_node()`
+
 Ex: `getNode("Sprite").position = Vector2(200, 200)`
 
 ## scope variables 
@@ -30,6 +31,7 @@ gt.image    //image functions
 # gtCore
 
 Run GDScript on Node
+
 `console (optional)` Text element to output errors
 
 ```swift
@@ -43,6 +45,7 @@ Set Node target to append HTTPRequest
 func setTarget(node:Node) -> any
 ```
 Download Image and apply as texture
+
 ps.: running on html can be cors error
 ```swift
 func downloadPng(url:String) -> any
