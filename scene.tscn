@@ -40,21 +40,21 @@ __meta__ = {
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = -145.0
+margin_top = -271.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/CenterContainer"]
-margin_left = 85.0
-margin_top = 22.0
-margin_right = 939.0
-margin_bottom = 122.0
+margin_left = 135.0
+margin_top = 10.0
+margin_right = 889.0
+margin_bottom = 260.0
 
 [node name="TextEdit" type="TextEdit" parent="CanvasLayer/CenterContainer/HBoxContainer"]
-margin_right = 800.0
-margin_bottom = 100.0
-rect_min_size = Vector2( 800, 100 )
+margin_right = 700.0
+margin_bottom = 250.0
+rect_min_size = Vector2( 700, 250 )
 custom_colors/member_variable_color = Color( 0.0627451, 0.486275, 0.898039, 1 )
 custom_colors/code_folding_color = Color( 0.6, 0.027451, 0.803922, 1 )
 custom_colors/function_color = Color( 0.627451, 0.290196, 0.964706, 1 )
@@ -73,9 +73,9 @@ __meta__ = {
 }
 
 [node name="Button" type="Button" parent="CanvasLayer/CenterContainer/HBoxContainer"]
-margin_left = 804.0
-margin_right = 854.0
-margin_bottom = 100.0
+margin_left = 704.0
+margin_right = 754.0
+margin_bottom = 250.0
 rect_min_size = Vector2( 50, 0 )
 text = "run"
 __meta__ = {

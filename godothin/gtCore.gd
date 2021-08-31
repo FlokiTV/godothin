@@ -53,6 +53,13 @@ static func parse(expression:String, target):
 	if error != OK:
 		print(ex.get_error_text())
 	return ex.execute([], target, true)
-	
+			
+#var script = GDScript.new()
+#script.source_code = """extends Node\n func _process():\n\tif Input.is_key_pressed(KEY_W):\n\t\tthis.setY(this.position.x, this.position.y+1)
+#"""
+#script.reload()
+#var obj = Node.new()
+#this.add_child(obj)
+#obj.set_script(script)
 
 
